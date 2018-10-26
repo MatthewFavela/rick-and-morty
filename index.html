@@ -14,18 +14,18 @@
 <body>
 
     <div id="control">
-        <button id="previous"> PREVIOUS PAGE </button>
-        <button id="next"> NEXT PAGE </button>
+        <button id="previous" class="button"> PREVIOUS PAGE </button>
+        <button id="next" class="button"> NEXT PAGE </button>
+
         <form action="" id="form">
             <select name="Filters" id="filter-container">
                     <option id="filters">Select Filter</option>
-                    <option id="filters">name</option>
+                    <option id="filters">name</option> 
                     <option id="filters">species</option>
-                    <option id="filters">dimension</option>
                     <option id="filters">status</option>
             </select>
-            <input type="text" id="input">
-            <input type="submit" value="Search">
+            <input type="text" id="input" class="button">
+            <input type="submit" value="Search" id="search" class="button">
         </form>
     </div>
     <div id="result"></div>

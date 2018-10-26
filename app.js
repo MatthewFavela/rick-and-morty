@@ -101,11 +101,12 @@ axios.get('https://rickandmortyapi.com/api/character/?page=1')
         event.preventDefault();
         obj.filter = select.value;
         obj.input = input_value.value;
-
+        console.log('obj', obj);
         axios.get(`https://rickandmortyapi.com/api/character/?${obj.filter}=${obj.input}`)
         .then(function(response){
-            console.log(response);
+            //console.log('RESPONSE***', response);
             resultDiv.innerHTML = response.data.results.map(function(val) {
+                console.log('val', val.origin);
                         return`
                         <br>
                         <div id = "characterBox">

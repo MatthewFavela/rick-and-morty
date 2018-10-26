@@ -29,3 +29,44 @@ body{
     background-image: url('/assets/one.jpg');
     background-position: center;
 }
+
+#control{
+    display: flex;
+}
+
+#previous{
+
+position: fixed;
+left: 10px;
+}  
+
+#next{
+    position: fixed;
+    left: 1200px;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(81, 140, 250);
+    font-size: 20px;
+    border: none;
+}
+#input {
+    position: relative;
+    left: 470px;
+}
+#search{
+    position: relative;
+    left: 500px;
+}
+
+#filter-container{
+    width: 80px;
+    height: 50px;
+    background-color: rgb(81, 140, 250);
+    font-size: 20px;
+    border: none;
+    position: relative;
+    left: 450px;
+}
