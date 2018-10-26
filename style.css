@@ -70,3 +70,13 @@ left: 10px;
     position: relative;
     left: 450px;
 }
+
+@font-face {
+    font-family: 'MISFITS_';
+    src:    url('assets/MISFITS_.TTF') format('truetype');
+}
+
+.name{
+    font-family: 'MISFITS_';
+    font-size: 25px;
+}

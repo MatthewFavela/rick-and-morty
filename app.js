@@ -127,5 +127,12 @@ axios.get('https://rickandmortyapi.com/api/character/?page=1')
         console.log('OBJ****', obj);
         //https://rickandmortyapi.com/api/character/?name=rick&status=alive
     });
-
+ 
+    
+    for(var i = 0; i < characterBox.length; i++){
+     
+        characterBox[i].addEventListener("click", ()=>{
+            console.log('Heck');
+        })
+    }
 }
