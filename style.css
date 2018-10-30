@@ -8,6 +8,12 @@
     border-radius: 50%
 }
 
+.image:hover{
+    border-radius: 50%;
+    cursor: pointer;
+    content: url('/assets/hover-pic.jpg');
+}
+
 #characterBox{
     border: black solid 1px;
     margin: 5px;
@@ -16,7 +22,7 @@
     padding-left: 35px;
     width: 200px;
     height: 200px;
-    text-align: center;
+    text-align: center;             
     background-color: rgba(255,255,255,0.5);
 }
 
@@ -40,9 +46,20 @@ position: fixed;
 left: 10px;
 }  
 
+#previous:hover{
+    width: 203px;
+    height: 53px;
+    cursor: pointer;
+}
+
 #next{
     position: fixed;
     left: 1200px;
+}
+#next:hover{
+    width: 203px;
+    height: 53px;
+    cursor: pointer;
 }
 
 .button{
